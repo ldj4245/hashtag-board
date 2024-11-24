@@ -262,4 +262,13 @@ $RECYCLE.BIN/
 # gitignore
 src/main/generated/
 
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+.gradle-build/
+*.gradle
+*.gradle.kts
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,eclipse,windows,macos,java,visualstudiocode
